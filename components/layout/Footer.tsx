@@ -19,7 +19,7 @@ export default function Footer() {
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             <Link
               href="https://github.com/jbeat30"
-              className="text-gray-500"
+              className="text-gray-700 hover:text-black transition-colors duration-300"
               rel="noopener noreferrer"
               target="_blank"
             >

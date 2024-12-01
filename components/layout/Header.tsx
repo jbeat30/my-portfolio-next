@@ -1,4 +1,7 @@
+'use client'
+
 import Link from 'next/link'
+import ThemeChangeButton from '@/components/ThemeChangeButton'
 
 export default function Header() {
   return (
@@ -39,6 +42,8 @@ export default function Header() {
             연락하기
           </Link>
         </nav>
+        {/* 테마 변경 버튼 */}
+        <ThemeChangeButton />
       </div>
     </header>
   )
