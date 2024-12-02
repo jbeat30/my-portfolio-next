@@ -9,7 +9,15 @@ export async function GET() {
       'Content-Type': 'application/json',
       Accept: 'application/json',
     },
-    body: JSON.stringify({ page_size: 100 }),
+    body: JSON.stringify({
+      page_size: 100,
+      sorts: [
+        {
+          property: 'Name',
+          direction: 'descending',
+        },
+      ]
+    }),
   }
 
   try {
