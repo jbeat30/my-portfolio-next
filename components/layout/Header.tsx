@@ -41,9 +41,12 @@ export default function Header() {
           >
             연락하기
           </Link>
+
+
+          {/* 테마 변경 버튼 */}
+          <ThemeChangeButton />
         </nav>
-        {/* 테마 변경 버튼 */}
-        <ThemeChangeButton />
+
       </div>
     </header>
   )
