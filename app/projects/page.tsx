@@ -34,12 +34,12 @@ export default async function Page() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-3 mb-10">
-      <h1 className="text-4xl font-bold sm:text-6xl">
+      <h2 className="text-2xl font-bold sm:text-4xl">
         총 프로젝트 :
         <span className="pl-4 text-blue-500">{results.length}</span>
-      </h1>
+      </h2>
 
-      <div className="grid grid-cols-1 gap-8 p-12 m-4 md:grid-cols-2">
+      <div className="grid grid-cols-1 gap-8 p-12 m-4 lg:grid-cols-3 md:grid-cols-2">
         {results.map(
           (aProject: {
             properties: {
